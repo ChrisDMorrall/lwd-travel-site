@@ -11752,7 +11752,7 @@ var Modal = function () {
     key: "openModal",
     value: function openModal() {
       this.modal.addClass("modal--is-visible");
-      return flase;
+      return false;
     }
   }, {
     key: "closeModal",

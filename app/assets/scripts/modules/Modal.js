@@ -26,7 +26,7 @@ class Modal {
 
   openModal() {
     this.modal.addClass("modal--is-visible");
-    return flase;
+    return false;
   }
 
   closeModal() {
